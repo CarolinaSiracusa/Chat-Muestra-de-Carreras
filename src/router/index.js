@@ -100,7 +100,7 @@ const routes = [
     name: 'Chat-MariaAuxiliadora',
     props: { department: "Maria-Auxiliadora", name: "Instituto de Formación Docente y Técnica María Auxiliadora" },
     component: Home
-  }
+  },
     ]
 
     const router = new VueRouter({
