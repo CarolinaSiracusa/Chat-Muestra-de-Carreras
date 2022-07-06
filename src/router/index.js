@@ -82,6 +82,12 @@ const routes = [
       name: 'Chat-ISEME',
       props: { department: "INSTITUTO-SUPERIOR-EZEQUIEL-MARTINEZ-ESTRADA", name: "Instituto Superior Ezequiel Martinez Estrada" },
       component: Home
+    },
+    {
+      path: '/administracion',
+      name: 'Chat-Administracion',
+      props: { department: "CIENCIAS-DE-LA-ADMINISTRACION", name: "Ciencias de la Administración" },
+      component: Home
     }
     ]
 
