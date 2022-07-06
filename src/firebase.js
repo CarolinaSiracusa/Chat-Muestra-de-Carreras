@@ -5,17 +5,16 @@ import 'firebase/analytics';
 import 'firebase/firebase-messaging'
 
 // Your web app's Firebase configuration
-var firebaseConfig = {
-  apiKey: "AIzaSyCzRdX1OEAbq71JaiZd5Ihmw-5p3aLoA3s",
-  authDomain: "chat1-7bd8c.firebaseapp.com",
-  databaseURL: 'https://chat1-7bd8c.firebaseio.com',
-  projectId: "chat1-7bd8c",
-  storageBucket: "chat1-7bd8c.appspot.com",
-  messagingSenderId: "629871516449",
-  appId: "1:629871516449:web:341cfa12a2577a26ee3c60",
-  measurementId: "G-36JT8EP2E5"
+const firebaseConfig = {
+  apiKey: "AIzaSyDKrFLGsQDnd1ItrVeBioZudXGKwfRWrpo",
+  authDomain: "rama2-d5fdc.firebaseapp.com",
+  databaseURL: 'https://rama2-d5fdc.firebaseio.com',
+  projectId: "rama2-d5fdc",
+  storageBucket: "rama2-d5fdc.appspot.com",
+  messagingSenderId: "628431028544",
+  appId: "1:628431028544:web:4b53263655d95e2ef9baa5",
+  measurementId: "G-521K55M6H6"
 };
-
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
