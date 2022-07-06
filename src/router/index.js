@@ -34,6 +34,12 @@ const routes = [
       name: 'Chat-SPEC',
       props: { department: "SECRETARIA-POSGRADO-EDUCACION-CONTINUA", name: "Secretaria de Posgrado y Eduación Continua" },
       component: Home
+    },
+    {
+      path: '/mcc',
+      name: 'Chat-MCC',
+      props: { department: "MESA-COORDINADORA-DE-COLEGIOS-Y-CONSEJOS", name: "Mesa Coordinadora de Colegios y Consejos Profesionales del Sur Bonaerense" },
+      component: Home
     }
     ]
 
