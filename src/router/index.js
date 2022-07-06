@@ -40,7 +40,7 @@ const routes = [
       name: 'Chat-MCC',
       props: { department: "MESA-COORDINADORA-DE-COLEGIOS-Y-CONSEJOS", name: "Mesa Coordinadora de Colegios y Consejos Profesionales del Sur Bonaerense" },
       component: Home
-    }
+    },
     ]
 
     const router = new VueRouter({
