@@ -8,16 +8,15 @@ import 'firebase/firebase-messaging'
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAb9AfeobXZGX7uC8VoPL0BvQRvuti8g7s",
-  authDomain: "mainchat-5be17.firebaseapp.com",
-  databaseURL: 'https://mainchat-5be17.firebaseio.com',
-  projectId: "mainchat-5be17",
-  storageBucket: "mainchat-5be17.appspot.com",
-  messagingSenderId: "111819696762",
-  appId: "1:111819696762:web:f76a28b405025c74f869c3",
-  measurementId: "G-BZXHCRFYGJ"
+  apiKey: "AIzaSyCNQBsujl9tYZjLtEj5bFx-utoSpWQpazg",
+  authDomain: "rama1-2fc56.firebaseapp.com",
+  databaseURL: 'https://rama1-2fc56.firebaseio.com',
+  projectId: "rama1-2fc56",
+  storageBucket: "rama1-2fc56.appspot.com",
+  messagingSenderId: "462881137781",
+  appId: "1:462881137781:web:f1136b333ada0282d8043c",
+  measurementId: "G-P02BW2PL52"
 };
-
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
