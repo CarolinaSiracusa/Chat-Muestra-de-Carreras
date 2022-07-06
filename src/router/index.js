@@ -94,6 +94,12 @@ const routes = [
     name: 'Chat-ISBCS',
     props: { department: "INSTITUTO-SUPERIOR-DE-LA-BAHIA", name: "Instituto Superior de la Bahía y Comunicación Social" },
     component: Home
+  },
+  {
+    path: '/ifctma',
+    name: 'Chat-MariaAuxiliadora',
+    props: { department: "Maria-Auxiliadora", name: "Instituto de Formación Docente y Técnica María Auxiliadora" },
+    component: Home
   }
     ]
 
