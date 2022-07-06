@@ -5,62 +5,84 @@ import Home from '../Home.vue'
 Vue.use(VueRouter);
 
 const routes = [
-    
-      {
-        path: '/quimica',
-        name: 'Chat-Quimica',
-        props: { department: "QUIMICA", name: "Química" },
-        component: Home
-      },
-      {
-        path: '/sga',
-        name: 'Chat-SGA',
-        props: { department: "SECRETARIA-GENERAL-ACADEMICA", name: "Secretaria General Académica" },
-        component: Home
-      },
-      {
-        path: '/salesiana',
-        name: 'Chat-Salesiana',
-        props: { department: "UNIVERSIDAD-SALESIANA", name: "Universidad Salesiana" },
-        component: Home
-      },
-      {
-        path: '/juan23',
-        name: 'Chat-Juan',
-        props: { department: "JUAN-XXIII", name: "Juan XXIII" },
-        component: Home
-      },
-      {
-        path: '/utn',
-        name: 'Chat-UTN',
-        props: { department: "UNIVERSIDAD-TECNOLOGICA-NACIONAL", name: "Universidad Tecnológica Nacional" },
-        component: Home
-      },
-      {
-        path: '/upso',
-        name: 'Chat-UPSO',
-        props: { department: "UNIVERSIDAD-PROVINCIAL-DEL-SUDOESTE", name: "Universidad Provincial del Sudoeste" },
-        component: Home
-      },
-      {
-        path: '/ieme',
-        name: 'Chat-IEME',
-        props: { department: "INSTITUTO-EZEQUIEL-MARTINEZ-ESTRADA", name: "Instituto Ezequiel Martinez Estrada" },
-        component: Home
-      },
-      {
-        path: '/ucalp', 
-        name: 'Chat-UCALP',
-        props: { department: "UNIVERSIDAD-CATOLICA-DE-LA-PLATA", name: "Universidad Católica de la Plata" },
-        component: Home
-      },
-      
-      {
-        path: '/ifctma',
-        name: 'Chat-MariaAuxiliadora',
-        props: { department: "Maria-Auxiliadora", name: "Instituto de Formación Docente y Técnica María Auxiliadora" },
-        component: Home
-      },
+  {
+    path: '/dcic',
+    name: 'Chat-DCIC',
+    props: { department: "CIENCIAS-E-INGENIERIA-DE-COMPUTACION", name: "Ciencias e Ingeniería de la Computación"},
+    component: Home
+  },
+  {
+    path: '/geografia',
+    name: 'Chat-Geografia',
+    props: { department: "GEOGRAFIA-TURISMO", name: "Geografía y Turismo" },
+    component: Home
+  },
+  {
+    path: '/ingquimica',
+    name: 'Chat-INGQuimica',
+    props: { department: "INGENIERIA-QUIMICA", name: "Ingeniería Química" },
+    component: Home
+  },
+  {
+    path: '/agronomia',
+    name: 'Chat-Agronomia',
+    props: { department: "AGRONOMIA", name: "Agronomía" },
+    component: Home
+    },
+    {
+      path: '/cfp',
+      name: 'Chat-Centro-Formacion-Profesional',
+      props: { department: "CENTRO-DE-FORMACION-PROFESIONAL", name: "Centro de formación Profesional 403" },
+      component: Home
+    },
+    {
+      path: '/ingenieria',
+      name: 'Chat-Ingenieria',
+      props: { department: "Departamento-Ingenieria", name: "Ingeniería" },
+      component: Home
+    },
+    {
+      path: '/biologia',
+      name: 'Chat-Biologia',
+      props: { department: "BIOLOGIA", name: "Biologia, Bioquimica y Farmacia" },
+      component: Home
+    },
+    {
+      path: '/comercio',
+      name: 'Chat-Comercio',
+      props: { department: "ESCUELA-DE-COMERCIO", name: "Escuela Superior de Comercio" },
+      component: Home
+    },
+    {
+      path: '/humanidades',
+      name: 'Chat-Humanidades',
+      props: { department: "Departamento-Humanidades", name: "Humanidades" },
+      component: Home
+    },
+    {
+      path: '/salesiana',
+      name: 'Chat-Salesiana',
+      props: { department: "UNIVERSIDAD-SALESIANA", name: "Universidad Salesiana" },
+      component: Home
+    },
+    {
+      path: '/isft',
+      name: 'Chat-ISFT',
+      props: { department: "INSTITUTO-SUPERIOR-FORMACION-TECNICA", name: "Instituto Superior de Formación Técnica Nª191" },
+      component: Home
+    },
+    {
+      path: '/unsregion',
+      name: 'Chat-UNS-Region',
+      props: { department: "UNS-EN-LA-REGION", name: "UNS en la Región" },
+      component: Home
+    },
+    {
+      path: '/iseme',
+      name: 'Chat-Instituto-Superior-Ezequiel-Martinez-Estrada',
+      props: { department: "INSTITUTO-SUPERIOR-EZEQUIEL-MARTINEZ-ESTRADA", name: "Instituto Superior Ezequiel Martinez Estrada" },
+      component: Home
+    }
     ]
 
     const router = new VueRouter({
