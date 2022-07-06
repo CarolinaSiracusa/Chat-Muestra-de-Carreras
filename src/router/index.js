@@ -88,7 +88,7 @@ const routes = [
       name: 'Chat-Administracion',
       props: { department: "CIENCIAS-DE-LA-ADMINISTRACION", name: "Ciencias de la Administración" },
       component: Home
-    }
+    },
     ]
 
     const router = new VueRouter({
