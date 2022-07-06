@@ -79,7 +79,7 @@ const routes = [
     },
     {
       path: '/iseme',
-      name: 'Chat-Instituto-Superior-Ezequiel-Martinez-Estrada',
+      name: 'Chat-ISEME',
       props: { department: "INSTITUTO-SUPERIOR-EZEQUIEL-MARTINEZ-ESTRADA", name: "Instituto Superior Ezequiel Martinez Estrada" },
       component: Home
     }
