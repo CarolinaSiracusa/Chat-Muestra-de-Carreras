@@ -1,6 +1,7 @@
 {
   "projects": {
-    "Rama1": "rama1-2fc56"
+    "Rama1": "rama1-2fc56",
+    "default": "rama1-2fc56"
   },
   "targets": {}
 }
