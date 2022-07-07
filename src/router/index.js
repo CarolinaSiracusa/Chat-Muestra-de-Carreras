@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../Home.vue'
+import { createRouter, createWebHistory } from 'vue-router'
 
 Vue.use(VueRouter);
 
@@ -43,7 +44,7 @@ const routes = [
     },
     ]
 
-    const router = new VueRouter({
+    const router = createRouter({
       history: createWebHistory(),
       base: process.env.BASE_URL,
         routes
