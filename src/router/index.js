@@ -90,7 +90,7 @@ const routes = [
     component: Home
   },
   {
-    path: '/ISBCS',
+    path: '/isbcs',
     name: 'Chat-ISBCS',
     props: { department: "INSTITUTO-SUPERIOR-DE-LA-BAHIA", name: "Instituto Superior de la Bahía y Comunicación Social" },
     component: Home
