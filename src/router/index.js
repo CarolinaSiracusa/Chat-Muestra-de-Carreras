@@ -45,7 +45,7 @@ const routes = [
 
     const router = new VueRouter({
         mode: 'history',
-        base: 'https://muestra-de-carreras-1.onrender.com',
+        base: process.env.BASE_URL,
         routes
       })
       
